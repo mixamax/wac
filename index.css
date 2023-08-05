@@ -1,0 +1,197 @@
+/* *********************************************** */
+body {
+    margin: 0;
+}
+
+.section {
+    /* perspective: 10px; */
+    background-image: url("./пальмы.png");
+    width: 100%;
+    height: 1500px;
+    scroll-behavior: smooth;
+    background-attachment: fixed;
+    z-index: -2;
+    margin: 0;
+}
+.field {
+    position: absolute;
+    width: 100%;
+    height: 1500px;
+    z-index: 2;
+}
+.overlay {
+    width: 100%;
+    height: 1500px;
+    position: absolute;
+    /* top: 8px;
+  left: 8px; */
+}
+
+.fon {
+    position: absolute;
+    background-image: radial-gradient(
+        circle 100px at 100px 400px,
+        transparent 100px,
+        #121213 0
+    );
+    width: 100%;
+    height: 1500px;
+    transition: all 2s ease-in-out;
+    scroll-behavior: smooth;
+    background-attachment: fixed;
+}
+
+.section2 {
+    width: 100%;
+    height: 900px;
+}
+
+.fix {
+    top: 50px;
+    left: 700px;
+    width: 400px;
+    height: 50px;
+    position: fixed;
+    border-radius: 5px;
+    z-index: 1;
+    background-color: rgb(233, 233, 240);
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.world {
+    top: 100px;
+    left: 500px;
+    position: fixed;
+    font-size: 230px;
+    color: rgb(97, 97, 230);
+    /* z-index: 1; */
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    /* transition-property: transform;
+    transition-timing-function: ease-in-out; */
+    /* animation-name: Up;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-direction: normal; */
+}
+
+/* @keyframes Up {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-300px);
+    }
+
+    80% {
+        transform: translateY(-300px);
+    }
+} */
+
+.after {
+    top: 350px;
+    left: 200px;
+    position: fixed;
+
+    color: rgb(97, 97, 230);
+    /* z-index: 1; */
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 250px;
+}
+.covid {
+    top: 600px;
+    left: 400px;
+    position: fixed;
+    font-size: 230px;
+    color: rgb(97, 97, 230);
+    /* z-index: 1; */
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.text-inner2 {
+    font-size: 42px;
+    color: azure;
+    position: absolute;
+    border-top: solid;
+    text-align: justify;
+    word-break: break-all;
+    /* margin-right: 10%; */
+    position: fixed;
+    width: 600px;
+    left: 800px;
+    top: 450px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.text {
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    top: 1000px;
+    /* left: 0; */
+    position: absolute;
+    font-size: 36px;
+    color: white;
+    display: flex;
+    justify-content: end;
+    /* z-index: 1; */
+}
+.text-inner {
+    /* text-align: justify; */
+    word-break: break-all;
+    height: auto;
+    padding-right: 10%;
+    position: relative;
+    width: 600px;
+    left: 800;
+}
+.arrow {
+    fill: white;
+    position: sticky;
+    top: calc(100vh - 80px);
+    left: 30px;
+    height: 70px;
+    margin-bottom: 10px;
+    animation-duration: 5s;
+    animation-name: slideUp;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(-70px);
+    }
+    35% {
+        transform: translateY(0);
+    }
+}
+.num {
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(97, 97, 230);
+}
